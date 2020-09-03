@@ -49,11 +49,11 @@ table {
     max-width:100%;
 }
 html{
-    font-size:62.5%;
-    line-height:1.5;
+    font-size:62.5%;    
 }
 body{
     font-size:1.6rem;
+    line-height:1.2;
 }
 a{
     text-decoration:none;
@@ -77,11 +77,13 @@ header{
     width:30%;
     margin:2% 2%;
     text-align:center;
+    background:lavender;;
 }
 header nav{
     display:flex;
     justify-content:space-evenly;
     font-size:2rem;
+    padding:2% 0;
 }
 /* First Section */
 .firstSection{
@@ -90,9 +92,14 @@ header nav{
     justify-content:center;
     align-items:center;
     text-align:center;
+    flex-wrap:wrap;
+}
+.firstSection img{
+    border-radius:25px;
 }
 .firstSection div{
-    padding:10%;   
+    padding:10%;  
+    max-width:50%; 
 }
 /* Second Section */
 .secondSection{
@@ -109,4 +116,11 @@ header nav{
 footer{
     text-align:center;
     margin:2% 2%;
+    background:lavender;
+}
+footer div{
+    margin:1% 0;
+}
+footer div a{
+    margin:2%;
 }
