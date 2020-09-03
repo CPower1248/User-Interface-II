@@ -45,7 +45,7 @@ table {
 /* Soft Reset */
 *{
     box-sizing:border-box;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
     max-width:100%;
 }
 html{
@@ -57,15 +57,20 @@ body{
 }
 a{
     text-decoration:none;
+    color:#4f4f4f;
 }
 h1{
     font-size:6rem;
+    padding:2% 2%;
+    text-decoration:underline;
 }
 h2{
     font-size:4rem;
+    padding:2% 0;
 }
 h3{
     font-size:3rem;
+    padding:2% 2%;
 }
 /* Header */
 header{
@@ -73,7 +78,7 @@ header{
     margin:2% 2%;
     text-align:center;
 }
-header div{
+header nav{
     display:flex;
     justify-content:space-evenly;
     font-size:2rem;
@@ -82,15 +87,26 @@ header div{
 .firstSection{
     display:flex;
     width:100%;
-    margin:2% 2%;
     justify-content:center;
     align-items:center;
     text-align:center;
 }
 .firstSection div{
-    margin:10%;    
+    padding:10%;   
 }
 /* Second Section */
 .secondSection{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    margin:2% 2%;
+    text-align:center;
+}
+.secondSection div{
+    padding:5%;
+}
+/* Footer */
+footer{
+    text-align:center;
     margin:2% 2%;
 }
