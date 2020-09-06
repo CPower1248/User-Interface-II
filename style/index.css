@@ -48,6 +48,7 @@ table {
     box-sizing:border-box;
     /*border:1px solid grey;*/
     max-width:100%;
+    color:#4f4f4f;
 }
 html{
     font-size:62.5%;    
@@ -55,7 +56,7 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.2;
-    border:5px double black;
+    border:10px double black;
     font-family: 'Oleo Script', cursive;
 }
 a{
@@ -63,14 +64,14 @@ a{
     color:#4f4f4f;
 }
 h1{
-    font-size:6rem;
+    font-size:8rem;
     padding:1%;
     text-decoration:underline;
-    font-family: 'Neuton', serif;
+    font-family: 'Neuton', serif;    
 }
 h2{
-    font-size:4rem;
-    padding:2% 0;
+    font-size:5rem;
+    padding:2% 0;;
     font-family: 'Neuton', serif;
 }
 h3{
@@ -84,6 +85,8 @@ header{
     background:lavender;
     padding:1%;
     border-bottom:1px solid black;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
 }
 header nav{
     display:flex;
@@ -94,42 +97,50 @@ header nav a{
     border:1px solid #4f4f4f;
     padding:1% 3%;
     background:white;
+    border-radius:10px;
 }
 header a:hover{
-    color:black;
     background:thistle;
-    border:lavender;
+    border:1px solid lavender;
+    color:white;
     transition:1s;
 }
 /* First Section */
 .firstSection{
     display:flex;
     width:100%;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items:center;
     flex-wrap:wrap;
 }
 .firstSection img{
+    border:1px solid black;
     border-radius:25px;
-    margin:2%;
+    margin:5%;
 }
 .firstSection div{
     display:flex;
     flex-direction:column;
-    justify-content:space-evenly;
-    max-width:40%;
+    justify-content:center;
+    width:40%;
 }
 .firstSection p{
-    font-size:2rem;
+    font-size:2.5rem;
 }
 .firstSection button{
-    background:lavender;
-    border-radius:5px;
+    background:lavenderblush;
+    border:1px solid #4f4f4f;
+    color:#4f4f4f;
+    border-radius:8px;
     padding:1% 4%;
     margin:3% 0;
+    font-size:2rem;
+    font-family: 'Oleo Script', cursive;
 }
 button:hover{
     background:thistle;
+    border:1px solid white;
+    color:white;
     transition:1s;
 }
 /* Second Section */
@@ -143,6 +154,7 @@ button:hover{
 }
 .secondSection div{
     padding:5%;
+    border:1px solid white;
 }
 .secondSection div:hover{
     border:1px solid black;
@@ -155,9 +167,18 @@ footer{
     border-top:1px solid black;
 }
 footer button{
+    border:1px solid #4f4f4f;
+    color:#4f4f4f;
+    padding:0.5% 1.5%;
     background:white;
-    border-radius:5px;
-    padding:3px 10px;
+    border-radius:10px;
+    font-family: 'Oleo Script', cursive;
+    font-size:2rem;
+}
+footer button:hover{
+    background:thistle;
+    border:1px solid lavender;
+    color:white;
 }
 footer div{
     padding:1%;
