@@ -64,7 +64,7 @@ a{
     color:#4f4f4f;
 }
 h1{
-    font-size:8rem;
+    font-size:6.5rem;
     padding:1%;
     text-decoration:underline;
     font-family: 'Neuton', serif;    
@@ -189,4 +189,33 @@ footer div a{
 footer div a:hover{
     color:thistle;
     transition:2s;
+}
+@media (max-width:800px) {
+}
+@media (max-width:500px) {
+/* Header */
+    header{
+        display:flex;
+        flex-flow:column;
+        align-items:center;
+    }
+    header nav{
+        flex-flow:column;
+        width:30%;
+        text-align:center;
+    }
+/* First Section */
+    .firstSection{
+        flex-flow:column;
+    }
+    .firstSection div{
+        width:100%;
+    }
+    .firstSectionContent{
+        text-align:center;
+    }
+/* Second Section */
+    .secondSection div{
+    width:45%;
+    }
 }
