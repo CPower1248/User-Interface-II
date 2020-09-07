@@ -190,9 +190,9 @@ footer div a:hover{
     color:thistle;
     transition:2s;
 }
-@media (max-width:800px) {
+@media (min-width:800px) {
 }
-@media (max-width:500px) {
+@media (min-width:1000px) {
 /* Header */
     header{
         display:flex;
